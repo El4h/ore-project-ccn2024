@@ -1,0 +1,1 @@
+This is the presentation of my research project titled "How Exposure to Diverse Faces Shapes the Computational Mechanism of Face Perception". This poster was meant to be presented at the Cognitive Computational Neuroscience Conference 2024 which I could not attend due to U.S. visa issues.
