@@ -165,6 +165,49 @@
        </div>
        <div class="item">
         <!-- Your image here -->
+        <img src="static/images/ore-ind.png" alt="MY ALT TEXT" class="centered-image"/>
+        <h2 class="subtitle has-text-centered">
+          We evaluated each CNN’s performance using a target-matching task on a completely novel dataset comprising 80 female identities (40 Asian and 40 white, 5 images each), none of which were included in the training phase. Performance was quantified by the minimum distance (1 – cosine similarity) in activation patterns (fc7 layer) between two matching images and a target image. The ORE index for each single-trained CNN was computed as above.
+        </h2>
+       </div>
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/lesioning.png" alt="MY ALT TEXT" class="centered-image"/>
+        <h2 class="subtitle has-text-centered">
+          We conducted lesion experiments on the last convolutional layer of the Dual CNN in order to investigate the representational space of the CNNs. We ablated individual filters, assessed their impact on recognition performance for each racial task, and ranked them based on their impact.
+        </h2>
+       </div>
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/behavioral-data.png" alt="MY ALT TEXT" style="display: block; margin-left: auto; margin-right: auto;"/>
+        <h2 class="subtitle has-text-centered">
+          To directly assess the findings’ relevance to human behavior, we examined the consistency between CNNs’ decisions and those of Asian (n=102) and white (n=269) participants, using behavioral responses obtained from the same target-matching task (Dobs et al., 2023). We analyzed the correlation of decision patterns between participants and CNNs on a trial-by-trial basis.
+        </h2>
+       </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- End youtube video -->
+
+
+<!-- Youtube video -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Results</h2>
+      <br>
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/cnns.png" alt="MY ALT TEXT" style="display: block; margin-left: auto; margin-right: auto;"/>
+        <h2 class="subtitle has-text-centered">
+          To assess the impact of racially varied training on CNNs, we trained three CNNs, all based on the VGG16 architecture, for face recognition tasks: one on 1,654 Asian identities (Asian CNN), another on 1,654 white identities (White CNN), and a third combining both sets of identities (Dual CNN).
+        </h2>
+       </div>
+       <div class="item">
+        <!-- Your image here -->
         <div class="flex-center">
           <img src="static/images/ore-ind.png" alt="MY ALT TEXT" class="centered-image"/>
         </div>
@@ -192,36 +235,7 @@
     </div>
   </div>
 </section>
-
 <!-- End youtube video -->
-
-
-
-<section class="hero is-small">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <br><br><br>
-        <h2 class="title is-3">Conclusion</h2>
-        <div class="content has-text-justified">
-          <p>We investigated the computational mechanisms underlying the ORE, offering testable hypotheses on the impact of diverse facial exposure on human perception, thereby deepening our understanding of how experience shapes human face perception.</p>
-          <ol>
-            <li>
-              <strong>Comparable Performance and Integrated Feature Space:</strong> Matching the performance of single trained CNNs, the "Dual network" does not merely combine the feature spaces of two separate single-race trained networks. Instead, it creates a new, integrated feature space where both Asian and white faces can be represented.
-            </li>
-            <li>
-              <strong>Enhanced Generalizability:</strong> The Dual network showed enhanced generalization when tested on faces of a new race.
-            </li>
-            <li>
-              <strong>Enhanced Alignment to Human Behavior:</strong> Exposure to racially diverse faces not only reduces biases in CNNs but also enhances their generalizability and alignment with human perceptual behavior.
-            </li>
-          </ol>
-          <br>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 
 
